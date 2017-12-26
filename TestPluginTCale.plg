@@ -6,6 +6,42 @@
 --------------------Configuration: TestPluginTCale - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
+Creating temporary file "C:\Temp\RSPFDF2.tmp" with contents
+[
+/nologo /MTd /w /W0 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TESTPLUGINTCALE_EXPORTS" /D "_MSC_VER" /FR"Debug/" /Fp"Debug/TestPluginTCale.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\JackRain\Finance\TestPluginTCale\db_sqlite3.cpp"
+]
+Creating command line "cl.exe @C:\Temp\RSPFDF2.tmp" 
+Creating temporary file "C:\Temp\RSPFDF3.bat" with contents
+[
+@echo off
+DEL C:\new_tdx\T0002\dlls\TestPluginTCale.dll
+]
+Creating command line "C:\Temp\RSPFDF3.bat"
+Compiling...
+db_sqlite3.cpp
+Creating temporary file "C:\Temp\RSP46C.tmp" with contents
+[
+sqlite3.lib ta_libc_cmr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/TestPluginTCale.pdb" /debug /machine:I386 /out:"Debug/TestPluginTCale.dll" /implib:"Debug/TestPluginTCale.lib" /pdbtype:sept /libpath:"./ta-lib" 
+.\Debug\MagicNum.obj
+.\Debug\StdAfx.obj
+.\Debug\TCalcFuncSets.obj
+.\Debug\TestPluginTCale.obj
+.\Debug\db_sqlite3.obj
+]
+Creating command line "link.exe @C:\Temp\RSP46C.tmp"
+
+<h3>Output Window</h3>
+Linking...
+Creating temporary file "C:\Temp\RSPB24.bat" with contents
+[
+@echo off
+xcopy /Y Debug\TestPluginTCale.dll C:\new_tdx\T0002\dlls
+]
+Creating command line "C:\Temp\RSPB24.bat"
+
+Debug\TestPluginTCale.dll
+复制了 1 个文件
 
 
 

@@ -15,11 +15,21 @@ void TestPlugin1(int DataLen,float* pfOUT,float* pfINa,float* pfINb,float* pfINc
 
 void TestPlugin2(int DataLen,float* pfOUT,float* pfINa,float* pfINb,float* pfINc)
 {
+//	char name[256] = "1234 Hello World";
+
+#if 0
 	for(int i=0;i<DataLen;i++)
 	{
 		pfOUT[i]=pfINa[i]+pfINb[i]+pfINc[i];
 		pfOUT[i]=pfOUT[i]/3;
 	}
+#endif
+
+	for(int i=0;i<DataLen;i++)
+	{
+		pfOUT[i]=pfINa[i];
+	}	
+
 }
 
 void test_talib_ma(int DataLen,float* pfOUT,float* pfINa,float* pfINb,float* pfINc)
@@ -70,6 +80,7 @@ PluginTCalcFuncInfo g_CalcFuncSets[] =
 	{6,(pPluginFUNC)&MagicNum_API_6},
 	{7,(pPluginFUNC)&MagicNum_API_7},
 	{8,(pPluginFUNC)&MagicNum_API_8},
+	{9,(pPluginFUNC)&MagicNum_API_9},
 
 	{0,NULL},
 };

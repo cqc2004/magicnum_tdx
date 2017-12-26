@@ -11,6 +11,8 @@ void MagicNum_API_5(int DataLen,float* pfOUT,float* pfINa,float* pfINb,float* pf
 void MagicNum_API_6(int DataLen,float* pfOUT,float* pfINa,float* pfINb,float* pfINc);
 void MagicNum_API_7(int DataLen,float* pfOUT,float* pfINa,float* pfINb,float* pfINc);
 void MagicNum_API_8(int DataLen,float* pfOUT,float* pfINa,float* pfINb,float* pfINc);
+void MagicNum_API_9(int DataLen,float* pfOUT,float* pfINa,float* pfINb,float* pfINc);
+
 
 struct stZZconf
 {
